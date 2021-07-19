@@ -1,12 +1,16 @@
-for i in range(13):
-    if i == 3:
+list = []
+
+while True:
+    a = int(input("Введите первое число "))
+    b = int(input("Введите второе число "))
+    c = a + b
+    list.append(c)
+    print("Ваш результат -", list)
+    d = input("Продолжить? ")
+    if d == "Да":
         continue
-    elif i == 5:
-        continue
-    elif i == 8:
-        continue
-    else:
-        print("Test nubmer:", i)
+    elif d == "Нет":
+        break
 
 
     
