@@ -11,15 +11,3 @@ while True:
         continue
     elif d == "Нет":
         break
-
-
-
-
-    
-
-
-
-
-    
-    
-
