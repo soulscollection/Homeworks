@@ -9,8 +9,5 @@ while True:
     d = input("Продолжить? ")
     if d == "Да":
         continue
-    elif d == "Нет":
-        break
     else:
-        print("What?")
-        continue
+        break
