@@ -9,7 +9,7 @@ while True:
     d = input("Продолжить? ")
     if d == "Да":
         continue
-    elif d == "Нет":
+    else:
         break
 
 
