@@ -11,3 +11,6 @@ while True:
         continue
     elif d == "Нет":
         break
+    else:
+        print("What?")
+        continue
